@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+venv/
+.venv/
+
+# Playwright and test artifacts
+test-results/
+playwright-report/
+screenshots/
+logs/
+
+# Generated HTML reports
+reports/*.html
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db
